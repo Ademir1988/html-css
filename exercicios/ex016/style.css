@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+body {
+    background: linear-gradient(to left top, #F29F05, #F28705);
+    
+}
+main {
+    float: left;
+    background-color: white;
+    height: 600px;
+    width: 600px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px #b86704c9;
+}
+
+div {
+    float: right;
+    background-color: white;
+    height:600px;
+    width: 600px;
+    padding: 10px;
+    margin: 10px;
+        
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px #b86704c9;
+}
+h1 {
+    color: #354010;
+    text-align: center;
+    text-shadow: 1px 1px 2px #232b0b;
+    
+    
+}
+h1:hover {
+    color: #58691a;
+}
+
+h2 {
+    color: #592202;
+}
+h2:hover {
+    color: #b14507;
+}
+
+p {
+    text-align: justify;
+    font-family: 'VT323', monospace;
+    margin-bottom: -4px;
+}

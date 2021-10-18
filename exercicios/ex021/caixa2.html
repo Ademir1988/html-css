@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+        body{
+            
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        }
+        header{
+            background-color: #D9D8D7;
+            box-shadow: 10px 10px 12px 
+            #8C7558 ;
+            border-radius: 15px;
+            margin: 10px;
+            
+        }
+        h1{
+            text-align: center;
+        }
+        nav > a{
+            text-decoration: none;
+            padding-left: 10px;
+            font-size: large;
+            color: #131111;
+            
+        }
+        nav, a:hover {
+            color: #c93535;
+        }
+        main{
+            background-color: #D9D8D7;
+            box-shadow: 10px 10px 12px #8C7558 ;
+            border-radius: 15px;
+            height: 600px;
+            margin: 10px;
+        }
+        #assuntos{
+            font-weight: bolder;
+            text-align: center;
+            padding: 10px;
+        }
+        #noticias{
+            text-align: center;
+            padding: 10px;
+        }
+        h2 + p{
+            padding: 10px;
+            font-weight: bold;
+            color: #591414;
+            
+            
+        }
+        aside{
+            background-color:#734434 ;
+            color: whitesmoke;
+            margin-top: auto;
+            border-radius: 0px 0px 15px 15px ;
+        }
+        footer{
+            background-color: #591414;
+            color: whitesmoke;
+            height: 50px;
+            text-align: end;
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+
+        <nav>
+            <a href="#">links</a>
+            <a href="#">links</a>
+            <a href="#">links</a>
+            <a href="#">links</a>
+            <a href="#">links</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Esportes Polícica Tcnologia</p>
+
+        </section>
+        <section id="noticias">
+            <h2>Notícias sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quisquam voluptatum dolorem beatae harum quibusdam, aspernatur veniam dolor reiciendis quasi optio impedit nisi at repellendus voluptates ipsam ex ab magni! 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque repellendus dolores molestiae reprehenderit maiores assumenda veniam culpa, quasi ratione, sit placeat sunt laudantium, magnam aperiam quibusdam deserunt minima officia modi.    
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque repellendus dolores molestiae reprehenderit maiores assumenda veniam culpa, quasi ratione, sit placeat sunt laudantium, magnam aperiam quibusdam deserunt minima officia modi.    
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque repellendus dolores molestiae reprehenderit maiores assumenda veniam culpa, quasi ratione, sit placeat sunt laudantium, magnam aperiam quibusdam deserunt minima officia modi.    
+
+            </p>
+            <aside>
+                <p>Artigo escrito por José da Silva </p>
+            </aside>
+            <article>
+
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido pelo curso em vídeo</p>
+    </footer>
+</body>
+</html>

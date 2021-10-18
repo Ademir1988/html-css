@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+
+    <style>
+
+        div{
+            display: inline-block;
+            background-color: aliceblue;
+            border:3px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+            
+        }
+        .caixa1:hover{
+            background-color: chartreuse;
+        }
+        .caixa2:hover{
+            background-color: crimson;
+            border-radius: 15px;
+
+        }
+        .caixa3:hover{
+            background-color: darkmagenta;
+            border-radius: 0px 15px 15px 0px;
+            text-align: left;
+            text-decoration: aliceblue;
+        }
+        .caixa4 > p{
+            display: none;
+        }
+        .caixa4:hover >p {
+            display: block;
+        }
+         p:hover {
+            color: brown;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <div class="caixa1">01</div>
+    <div class="caixa2">02</div>
+    <div class="caixa3">03</div>
+
+    <h1>Aplicando hover</h1>
+
+    <p>
+        passe o mouse aqui!
+    </p>
+
+    <div class="caixa4">
+        <p>TEXTO ESCONDIDO</p>
+
+    </div>
+
+    <P>FIM DO EXECÍCIO</P>
+</body>
+</html>
